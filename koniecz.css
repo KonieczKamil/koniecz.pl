@@ -1,0 +1,147 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+#navbar{
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    box-shadow: 0 10px 10px -5px rgba(0,0,0,0.1);
+}
+#navbar ul{
+    display: flex;
+    margin: 10px 0 10px auto;
+    width: 55%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+#navbar ul li a {
+    margin-left: 3px;
+    color: black;
+    opacity: 0.7;
+    font-size: 1.2rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-decoration: none; 
+}
+#navbar ul li a:hover {
+    color: lightgreen;
+    opacity: 1;
+    text-decoration: underline;
+    transition: all 0.15s;
+}
+#intro{
+    height: 400px;
+    background-image: url(https://cdn.pixabay.com/photo/2019/10/23/08/16/coding-4570799_960_720.jpg);
+    background-size: cover;
+    
+   
+}
+#powitanie{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+.message{
+    display: flex;
+    margin: 20px;
+    width: 700px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 2rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.message img{
+    max-width: 100%;
+
+}
+.head{
+    font-size: 2rem;
+    text-align: center;
+
+}
+section{
+    margin-top: 1rem;
+    padding-top: 2rem;
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+div.info{
+    display: block;
+    font-size: 1.5rem;
+    text-align: left;
+
+}
+#skills{
+    background-color: black;
+    color: white;
+}
+.skillsy{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+.skillinfo{
+    padding: 2rem;
+    text-align: center;
+}
+.skill-name{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+.skillinfo progress{
+    background-color: white;
+    border: 1px solid white;
+}
+.skillinfo progress::-webkit-progress-value {
+    background-color: white;
+    border-radius: 0;
+}
+.skillinfo progress::-webkit-progress-bar {
+    background-color: black;
+
+}
+.projekt-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.projekt-container .projektinfo{
+    margin: 10px;
+
+}
+.projektinfo{
+    text-decoration: none;
+    text-align: center;
+}
+#contact{
+    margin-top: 50px;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#contact a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
